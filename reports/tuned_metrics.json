@@ -1,0 +1,32 @@
+{
+  "selected_model": "Random Forest",
+  "threshold_selected_on_validation": 0.4,
+  "validation_metrics_at_selected_threshold": {
+    "threshold": 0.4,
+    "accuracy": 0.7629524485450674,
+    "precision_yes": 0.53584229390681,
+    "recall_yes": 0.7994652406417112,
+    "f1_yes": 0.6416309012875536
+  },
+  "test_default_threshold_0_50": {
+    "threshold": 0.5,
+    "accuracy": 0.7672107877927609,
+    "precision_yes": 0.5515695067264574,
+    "recall_yes": 0.6577540106951871,
+    "f1_yes": 0.6
+  },
+  "test_tuned_threshold": {
+    "threshold": 0.4,
+    "accuracy": 0.7452093683463449,
+    "precision_yes": 0.5132275132275133,
+    "recall_yes": 0.7780748663101604,
+    "f1_yes": 0.6184909670563231
+  },
+  "test_roc_auc": 0.8241416724792683,
+  "split_sizes": {
+    "train": 4225,
+    "validation": 1409,
+    "test": 1409
+  },
+  "note": "Threshold was chosen on validation data; final metrics use the separate test set."
+}
