@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Local dataset files (keep data/README.md)
+data/*.csv
+!data/README.md
+
+# Optional: exclude generated model files if you don't want to upload them
+# models/*.joblib
