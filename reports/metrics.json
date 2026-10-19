@@ -1,0 +1,31 @@
+{
+  "selected_model": "Random Forest",
+  "selection_metric": "F1-score for churn class (Yes)",
+  "test_rows": 1409,
+  "metrics": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.7381121362668559,
+      "precision_yes": 0.504302925989673,
+      "recall_yes": 0.7834224598930482,
+      "f1_yes": 0.6136125654450262,
+      "roc_auc": 0.8412978893797307
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.7402413058907026,
+      "precision_yes": 0.506872852233677,
+      "recall_yes": 0.7887700534759359,
+      "f1_yes": 0.6171548117154811,
+      "roc_auc": 0.8302604045570797
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.7764371894960965,
+      "precision_yes": 0.565121412803532,
+      "recall_yes": 0.6844919786096256,
+      "f1_yes": 0.619105199516324,
+      "roc_auc": 0.8380802914050997
+    }
+  ]
+}
